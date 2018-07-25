@@ -22,7 +22,12 @@ $(document).ready(function(){
 		
 		var sentence5 = "Then it realized it like'd " + Hobby + ", so it became a " + AnotherJob;
 	
-		$(#sentence1_result").html(sentence1);
+		$("#sentence1_result").html(sentence1);
+		$("#sentence2_result").html(sentence2)
+		$("#sentence3_result").html(sentence3);
+		$("#sentence4_result").html(sentence4)
+		$("#sentence5_result").html(sentence5);
+		
 		
 		
 	});
